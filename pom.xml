@@ -10,6 +10,8 @@
     <packaging>pom</packaging>
     <modules>
         <module>workResource</module>
+        <module>admin</module>
+        <module>front</module>
     </modules>
 
     <properties>
