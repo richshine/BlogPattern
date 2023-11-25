@@ -1,8 +1,6 @@
-package com.WorkResource.enity;
+package com.WorkResource.entity;
 
 import java.util.Date;
-
-import java.io.Serializable;
 
 import com.baomidou.mybatisplus.annotation.TableId;
 import com.baomidou.mybatisplus.annotation.TableName;

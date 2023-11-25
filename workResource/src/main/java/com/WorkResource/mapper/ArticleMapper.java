@@ -1,7 +1,7 @@
 package com.WorkResource.mapper;
 
 import com.baomidou.mybatisplus.core.mapper.BaseMapper;
-import com.WorkResource.enity.Article;
+import com.WorkResource.entity.Article;
 import org.apache.ibatis.annotations.Mapper;
 
 @Mapper

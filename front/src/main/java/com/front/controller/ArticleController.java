@@ -10,7 +10,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 @RestController
 @RequestMapping("article")
-//@CrossOrigin
+@CrossOrigin
 public class ArticleController {
     @Autowired
     ArticleService articleService;
@@ -22,5 +22,10 @@ public class ArticleController {
     @GetMapping("/hotArticleList")
     public ResponseResult hotArticleList() {
         return articleService.hotArticleList();
+    }
+
+    @GetMapping("/articleList")
+    public ResponseResult getArticleList(Integer pageNum, Integer pageSize, Long categoryId) {
+        return articleService.getArticleList(pageNum, pageSize, categoryId);
     }
 }
